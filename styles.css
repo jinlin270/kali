@@ -1,0 +1,141 @@
+/* Reset CSS */
+body,
+td {
+  margin: 0;
+}
+
+body {
+  line-height: 1;
+}
+
+h1 {
+  margin: 15px;
+}
+
+/* Your Styles */
+body {
+  background-color: #eeebcf;
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
+
+nav {
+  background-color: #8d732a;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+#aboutUs {
+  display: flex;
+  /* Use flex display on the container */
+  justify-content: space-between;
+  /* Separate items with space */
+  align-items: center;
+  padding: 2%
+    /* Center items vertically */
+}
+
+#description {
+  text-align: center;
+  width: 50%;
+  /* Set width to 50% */
+  margin: 0 auto;
+  margin-right: 2%;
+
+
+  /* Center the element horizontally */
+}
+
+#description h1 {
+  margin-bottom: 10px;
+}
+
+#description p {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#aboutUs img {
+  max-width: 50%;
+  /* Set width to 50% */
+  height: auto;
+  /* Maintain the image's aspect ratio */
+}
+
+.rectangular-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.rectangular-button:hover {
+  background-color: #45a049;
+}
+
+#schedule-container {
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+
+#event {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#event-name {
+  width: 30%;
+  text-align: right;
+  margin-right: 5%;
+}
+
+#event-info {
+  width: 70%;
+  text-align: left;
+}
+
+#contactUs {
+  padding: 2%
+}
+
+#seminars-container {
+  display: flex;
+  justify-content: center;
+  /* Center content horizontally */
+  /* Center content vertically */
+  /* Adjust the height as needed */
+}
+
+#seminar {
+  text-align: center;
+  /* Center text and inline elements within seminar */
+  max-width: 600px;
+  /* Adjust the maximum width as needed */
+}
